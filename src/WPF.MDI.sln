@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.MDI", "WPF.MDI\WPF.MDI.csproj", "{929963B5-06EA-4173-B5A2-EA64871319BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Release|iPhone.Build.0 = Release|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{941A84EE-A89D-4198-913C-69B00BB8FE5D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {818A6B5B-C0C2-4EAA-8694-677BC83B07F2}
+	EndGlobalSection
+EndGlobal

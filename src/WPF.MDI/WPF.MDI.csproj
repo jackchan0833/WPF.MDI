@@ -1,0 +1,84 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net6.0-windows</TargetFramework>
+	  <UseWPF>true</UseWPF>
+	  <AssemblyName>WPF.MDI</AssemblyName>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Aero.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Themes\Aero\Close.png" />
+    <Resource Include="Themes\Aero\Maximize.png" />
+    <Resource Include="Themes\Aero\MaximizedClose.png" />
+    <Resource Include="Themes\Aero\MaximizedMinimize.png" />
+    <Resource Include="Themes\Aero\MaximizedRestore.png" />
+    <Resource Include="Themes\Aero\Minimize.png" />
+    <Resource Include="Themes\Aero\Restore.png" />
+    <Resource Include="Themes\Luna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Resource>
+    <Resource Include="Themes\Luna\BottomLeftFocused.png" />
+    <Resource Include="Themes\Luna\BottomLeftUnfocused.png" />
+    <Resource Include="Themes\Luna\BottomMiddleFocused.png" />
+    <Resource Include="Themes\Luna\BottomMiddleUnfocused.png" />
+    <Resource Include="Themes\Luna\BottomRightFocused.png" />
+    <Resource Include="Themes\Luna\BottomRightUnfocused.png" />
+    <Resource Include="Themes\Luna\CloseDown.png" />
+    <Resource Include="Themes\Luna\CloseNormalFocused.png" />
+    <Resource Include="Themes\Luna\CloseNormalUnfocused.png" />
+    <Resource Include="Themes\Luna\CloseOver.png" />
+    <Resource Include="Themes\Luna\LeftFocused.png" />
+    <Resource Include="Themes\Luna\LeftUnfocused.png" />
+    <Resource Include="Themes\Luna\MaximizedClose.png" />
+    <Resource Include="Themes\Luna\MaximizeDisabledFocused.png" />
+    <Resource Include="Themes\Luna\MaximizeDisabledUnfocused.png" />
+    <Resource Include="Themes\Luna\MaximizedMinimize.png" />
+    <Resource Include="Themes\Luna\MaximizeDown.png" />
+    <Resource Include="Themes\Luna\MaximizedRestore.png" />
+    <Resource Include="Themes\Luna\MaximizeNormalFocused.png" />
+    <Resource Include="Themes\Luna\MaximizeNormalUnfocused.png" />
+    <Resource Include="Themes\Luna\MaximizeOver.png" />
+    <Resource Include="Themes\Luna\MinimizeDisabledFocused.png" />
+    <Resource Include="Themes\Luna\MinimizeDisabledUnfocused.png" />
+    <Resource Include="Themes\Luna\MinimizedLeftFocused.png" />
+    <Resource Include="Themes\Luna\MinimizedLeftUnfocused.png" />
+    <Resource Include="Themes\Luna\MinimizedMiddleFocused.png" />
+    <Resource Include="Themes\Luna\MinimizedMiddleUnfocused.png" />
+    <Resource Include="Themes\Luna\MinimizeDown.png" />
+    <Resource Include="Themes\Luna\MinimizedRightFocused.png" />
+    <Resource Include="Themes\Luna\MinimizedRightUnfocused.png" />
+    <Resource Include="Themes\Luna\MinimizeNormal.png" />
+    <Resource Include="Themes\Luna\MinimizeNormalFocused.png" />
+    <Resource Include="Themes\Luna\MinimizeNormalUnfocused.png" />
+    <Resource Include="Themes\Luna\MinimizeOver.png" />
+    <Resource Include="Themes\Luna\RestoreDown.png" />
+    <Resource Include="Themes\Luna\RestoreNormalFocused.png" />
+    <Resource Include="Themes\Luna\RestoreNormalUnfocused.png" />
+    <Resource Include="Themes\Luna\RestoreOver.png" />
+    <Resource Include="Themes\Luna\RightFocused.png" />
+    <Resource Include="Themes\Luna\RightUnfocused.png" />
+    <Resource Include="Themes\Luna\TopLeftFocused.png" />
+    <Resource Include="Themes\Luna\TopLeftUnfocused.png" />
+    <Resource Include="Themes\Luna\TopMiddleFocused.png" />
+    <Resource Include="Themes\Luna\TopMiddleUnfocused.png" />
+    <Resource Include="Themes\Luna\TopRightFocused.png" />
+    <Resource Include="Themes\Luna\TopRightUnfocused.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+  </ItemGroup>
+
+</Project>
